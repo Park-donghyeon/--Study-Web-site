@@ -1,0 +1,43 @@
+    h1{
+        text-align: center;
+        color: royalblue;
+        border-bottom: solid 5px violet;
+        margin-bottom: 0px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .A{
+        font-size: 30px;
+    }
+    .B{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+        body{
+        margin: 0px;
+    }
+    #사계절 ol{
+        border-right: solid 5px violet;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 20px;
+        width: 120px;
+        list-style-type: none;
+        font-size: 22px;
+    }
+    #사계절{
+        display: grid;
+        grid-template-columns: 170px 1fr;
+    }
+    @media (max-width: 768px) {
+        #사계절{
+        display: block;
+    }
+        #사계절 ol{
+            border-right: none;
+        }
+        h1{
+            border-bottom: none;
+        }
+    }
